@@ -5,7 +5,7 @@ RedSocks2 for OpenWrt
 ---
 
  本项目是 [RedSocks2][1] 在 OpenWrt 上的移植  
- 当前版本: 0.65-1
+ 当前版本: 0.65-4
  [预编译 IPK 下载][2]  
 
 编译
