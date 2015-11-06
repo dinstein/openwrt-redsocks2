@@ -6,3 +6,7 @@ include ChinaDNS, Shadowsocks and Redsocks2.
     cd openwrt-d-packages
     git submodule init
     git submodule update
+
+or
+
+    git clone --recursive git@git.dinstein.net:openwrt/openwrt-d-packages.git
