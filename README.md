@@ -1,3 +1,3 @@
 # openwrt packages for dinstein
 
-    include ChinaDNS, Shadowsocks and Redsocks2.
+include ChinaDNS, Shadowsocks and Redsocks2.
