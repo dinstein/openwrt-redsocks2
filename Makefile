@@ -9,14 +9,15 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=redsocks2
 PKG_VERSION:=0.65
-PKG_RELEASE:=4
-PKG_REV:=02a53ce90413c73895fd3d126319478540c46571
+PKG_RELEASE:=5
+PKG_REV:=b0e52cc69b8ae08852e378b0acbebe4364c998f4
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.bz2
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=https://github.com/semigodking/redsocks.git
+#PKG_SOURCE_URL:=https://github.com/semigodking/redsocks.git
+PKG_SOURCE_URL:=https://github.com/dinstein/redsocks.git
 
 PKG_LICENSE:=GPLv2
 PKG_LICENSE_FILES:=LICENSE
