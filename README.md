@@ -5,7 +5,7 @@ RedSocks2 for OpenWrt
 ---
 
  本项目是 [RedSocks2][1] 在 OpenWrt 上的移植  
- 当前版本: 0.65-20
+ 当前版本: 0.65-4
  [预编译 IPK 下载][2]  
 
 编译
@@ -44,16 +44,3 @@ RedSocks2 for OpenWrt
   [8]: https://github.com/aa65535/openwrt-shadowvpn
   [S]: http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
   [L]: https://github.com/aa65535/openwrt-dist-luci
-
-# openwrt packages for dinstein
-
-include ChinaDNS, Shadowsocks and Redsocks2.
-
-    git clone git@git.dinstein.net:openwrt/openwrt-d-packages.git
-    cd openwrt-d-packages
-    git submodule init
-    git submodule update
-
-or
-
-    git clone --recursive git@git.dinstein.net:openwrt/openwrt-d-packages.git
